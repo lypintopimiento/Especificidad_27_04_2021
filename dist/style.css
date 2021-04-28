@@ -1,0 +1,22 @@
+
+#color-h1-id{
+    color: #3b353d !important;
+}
+
+.color-h1-class{
+    color: #ff9100;
+}
+[miguel="23"]{
+    color: #00ffff ;
+}
+
+
+h1{
+    color: #ff0000;
+}
+h1{
+    color: #000fff ;
+}
+h1{
+    color: #008000;
+}

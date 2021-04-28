@@ -1,0 +1,15 @@
+doctype html
+html(lang="sp")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="style.css")
+        title Espesificidad
+    body 
+        h1 Hola Mundo
+        h1(id="color-h1-id" class="color-h1-class") Hola Mundo 2
+        h1(class="color-h1-class") Hola Mundo 3
+        h1(miguel="23" class="color-h1-class") Hola Mundo 4
+        h1(id="color-h1-id" style="color:#ff0095 !important; ") Hola Mundo 5
+        h1 Hola Mundo 6
